@@ -1,6 +1,7 @@
 #include "binary_trees.h"
 
-/** binary_tree_delete - deletes entire BT
+/**
+ * binary_tree_delete - deletes entire BT
  * @tree: root node's pointer
  * if tree is NUll do Nun
  */
