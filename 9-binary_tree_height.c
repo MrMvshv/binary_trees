@@ -1,17 +1,18 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_height - using pre-order traversal
+ * binary_tree_height - height of tree
  * @tree: tree
  *
+ * Return: height of tree or 0
  */
- size_t binary_tree_height(const binary_tree_t *tree)
+size_t binary_tree_height(const binary_tree_t *tree)
 {
 	binary_tree_t *new = NULL;
 
 	if (tree == NULL)
 		return (0);
-	
+
 	size_t lHeight = 0;
 	size_t rHeight = 0;
 
